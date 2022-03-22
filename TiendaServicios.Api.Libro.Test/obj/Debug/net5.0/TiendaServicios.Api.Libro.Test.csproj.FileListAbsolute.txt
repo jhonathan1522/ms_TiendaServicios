@@ -24,6 +24,7 @@ C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Micros
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\GenFu.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\Google.Protobuf.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\K4os.Compression.LZ4.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
@@ -165,4 +166,3 @@ C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Micros
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\obj\Debug\net5.0\ref\TiendaServicios.Api.Libro.Test.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\obj\Debug\net5.0\TiendaServicios.Api.Libro.Test.pdb
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\obj\Debug\net5.0\TiendaServicios.Api.Libro.Test.genruntimeconfig.cache
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro.Test\bin\Debug\net5.0\GenFu.dll
