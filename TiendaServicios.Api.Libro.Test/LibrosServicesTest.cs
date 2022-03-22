@@ -29,18 +29,18 @@ namespace TiendaServicios.Api.Libro.Test
             return lista;
         }
 
-        private Mock<ContextoLibreria> CrearContexto() 
-        {
-            var dataPrueba = ObtenerDataPrueba().AsQueryable();
-            var dbSet = new Mock<DbSet<LibreriaMaterial>>();
-
-            // propiedades que debe tener toda clase de EF, al no estar trabajando con ella tengo que hacer manualmente el trabajo
-            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Provider).Returns(dataPrueba.Provider);
-            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Expression).Returns(dataPrueba.Expression);
-            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.ElementType).Returns(dataPrueba.ElementType);
-            dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.GetEnumerator()).Returns(dataPrueba.GetEnumerator);
-
-;        }
+        //private Mock<ContextoLibreria> CrearContexto() 
+        //{
+        //    var dataPrueba = ObtenerDataPrueba().AsQueryable();
+        //    var dbSet = new Mock<DbSet<LibreriaMaterial>>();
+        //
+        //    // propiedades que debe tener toda clase de EF, al no estar trabajando con ella tengo que hacer manualmente el trabajo
+        //    dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Provider).Returns(dataPrueba.Provider);
+        //    dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.Expression).Returns(dataPrueba.Expression);
+        //    dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.ElementType).Returns(dataPrueba.ElementType);
+        //    dbSet.As<IQueryable<LibreriaMaterial>>().Setup(x => x.GetEnumerator()).Returns(dataPrueba.GetEnumerator);
+        //
+        //}
 
         [Fact]
         public void GetLibros() {
