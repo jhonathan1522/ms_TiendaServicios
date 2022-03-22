@@ -28,7 +28,7 @@ namespace TiendaServicios.Api.Libro.Test
             lista[0].LibreriaMaterialId = Guid.Empty;
             return lista;
         }
-
+        //
         //private Mock<ContextoLibreria> CrearContexto() 
         //{
         //    var dataPrueba = ObtenerDataPrueba().AsQueryable();
