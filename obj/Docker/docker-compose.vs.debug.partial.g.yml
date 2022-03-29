@@ -1,0 +1,113 @@
+version: '3.4'
+
+services:
+  tiendaservicios.api.autor:
+    image: tiendaserviciosapiautor:dev
+    container_name: TiendaServicios.Api.Autor
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "TiendaServicios.Api.Autor"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_tiendaservicios.api.autor$
+    volumes:
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Autor:/app
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios:/src
+      - C:\Users\jnata\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_tiendaservicios.api.autor$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_tiendaservicios.api.autor$ \"/app/bin/Debug/net5.0/TiendaServicios.Api.Autor.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  tiendaservicios.api.carritocompra:
+    image: tiendaserviciosapicarritocompra:dev
+    container_name: TiendaServicios.Api.CarritoCompra
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "TiendaServicios.Api.CarritoCompra"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_tiendaservicios.api.carritocompra$
+    volumes:
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.CarritoCompra:/app
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios:/src
+      - C:\Users\jnata\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_tiendaservicios.api.carritocompra$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_tiendaservicios.api.carritocompra$ \"/app/bin/Debug/net5.0/TiendaServicios.Api.CarritoCompra.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  tiendaservicios.api.gateway:
+    image: tiendaserviciosapigateway:dev
+    container_name: TiendaServicios.Api.Gateway
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "TiendaServicios.Api.Gateway"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_tiendaservicios.api.gateway$
+    volumes:
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Gateway:/app
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios:/src
+      - C:\Users\jnata\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_tiendaservicios.api.gateway$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_tiendaservicios.api.gateway$ \"/app/bin/Debug/net5.0/TiendaServicios.Api.Gateway.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  tiendaservicios.api.libro:
+    image: tiendaserviciosapilibro:dev
+    container_name: TiendaServicios.Api.Libro
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "TiendaServicios.Api.Libro"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_tiendaservicios.api.libro$
+    volumes:
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\TiendaServicios.Api.Libro:/app
+      - C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios:/src
+      - C:\Users\jnata\vsdbg\vs2017u5:/remote_debugger:rw
+#$nuget_volume_mapping_tiendaservicios.api.libro$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_tiendaservicios.api.libro$ \"/app/bin/Debug/net5.0/TiendaServicios.Api.Libro.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

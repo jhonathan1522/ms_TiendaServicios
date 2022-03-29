@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z1wsymeui/9P3eZL5/t/0p/gI/DF0MsyWCeKxyZU+EiqHBHzYN6NBZVByxbgyuvRogdjeAZ7GsPURhBMNYRooQ==",
+  "dgSpecHash": "fOXU9JTXG0meBDCHh3oL8lUed8OLMKnMP+WZ1huYPxi/0oIzFV2DaDwDlHhPyStAoEhVYaIgIE4Jg/FEfUNfLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jnata\\Documents\\PROYECTOS\\Desarrollo de software\\Cursos\\Curso de Microservicios .Net\\TiendaServicios\\TiendaServicios.Api.Libro.Test\\TiendaServicios.Api.Libro.Test.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\jnata\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",

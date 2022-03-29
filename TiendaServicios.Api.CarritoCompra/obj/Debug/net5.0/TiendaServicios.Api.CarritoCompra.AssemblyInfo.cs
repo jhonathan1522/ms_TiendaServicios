@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("57207d74-bf6a-4354-92b7-4aa8cd813f85")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaServicios.Api.CarritoCompra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VKn++izcpunDImHuK1DFEhQn1iL3CfCeuADy7WaiFtelGl3hBHE4xg5iQM6p62OFvcv037adbSGovtFbkT6KSg==",
+  "dgSpecHash": "FsEuxsuAG6Lb2lvVRzRZZWyrhdyVfnIlNJp2hi5CQSq44vDvm4JmKlZk3tVUqSqfaxy7jLDwEEgxX0FiAn/8FA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jnata\\Documents\\PROYECTOS\\Desarrollo de software\\Cursos\\Curso de Microservicios .Net\\TiendaServicios\\TiendaServicios.Api.CarritoCompra\\TiendaServicios.Api.CarritoCompra.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jnata\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.14\\microsoft.visualstudio.azure.containers.tools.targets.1.10.14.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\jnata\\.nuget\\packages\\mysql.data\\8.0.20\\mysql.data.8.0.20.nupkg.sha512",
