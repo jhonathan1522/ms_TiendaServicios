@@ -15,16 +15,16 @@ namespace TiendaServicios.Api.Autor.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityByDefaultColumns()
-                .HasAnnotation("Relational:MaxIdentifierLength", 63)
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
+                .HasAnnotation("ProductVersion", "3.1.2")
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("TiendaServicios.Api.Autor.Modelo.AutorLibro", b =>
                 {
                     b.Property<int>("AutorLibroId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
-                        .UseIdentityByDefaultColumn();
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("Apellido")
                         .HasColumnType("text");
@@ -48,7 +48,7 @@ namespace TiendaServicios.Api.Autor.Migrations
                     b.Property<int>("GradoAcademicoId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
-                        .UseIdentityByDefaultColumn();
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<int>("AutorLibroId")
                         .HasColumnType("integer");
@@ -79,13 +79,6 @@ namespace TiendaServicios.Api.Autor.Migrations
                         .HasForeignKey("AutorLibroId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("AutorLibro");
-                });
-
-            modelBuilder.Entity("TiendaServicios.Api.Autor.Modelo.AutorLibro", b =>
-                {
-                    b.Navigation("ListaGradoAcademico");
                 });
 #pragma warning restore 612, 618
         }

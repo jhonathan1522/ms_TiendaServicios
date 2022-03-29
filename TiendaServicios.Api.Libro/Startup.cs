@@ -1,19 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using AutoMapper;
 using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using TiendaServicios.Api.Libro.Aplicacion;
 using TiendaServicios.Api.Libro.Persistencia;
 
@@ -31,20 +30,18 @@ namespace TiendaServicios.Api.Libro
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
-            services.AddDbContext<ContextoLibreria>(options =>
-            {
-                options.UseSqlServer(Configuration.GetConnectionString("ConexionDB"));
-            });
 
-            services.AddSwaggerGen(c =>
+            services.AddDbContext<ContextoLibreria>(opt =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TiendaServicios.Api.Libro", Version = "v1" });
+                opt.UseSqlServer(Configuration.GetConnectionString("ConexionDB"));
             });
 
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
-            services.AddAutoMapper(typeof(Consulta.Manejador));
+
+            services.AddAutoMapper(typeof(Consulta.Ejecuta));
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,11 +50,7 @@ namespace TiendaServicios.Api.Libro
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TiendaServicios.Api.Libro v1"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

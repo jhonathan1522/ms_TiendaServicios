@@ -1,18 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using TiendaServicios.Api.CarritoCompra.Aplicacion;
 using TiendaServicios.Api.CarritoCompra.Persistencia;
 using TiendaServicios.Api.CarritoCompra.RemoteInterface;
@@ -32,23 +30,21 @@ namespace TiendaServicios.Api.CarritoCompra
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddScoped<ILibroService, LibrosService>();
-
-            services.AddControllers();
+            services.AddScoped<ILibrosService, LibrosService>();
+           
             services.AddDbContext<CarritoContexto>(options =>
             {
-                options.UseMySQL(Configuration.GetConnectionString("ConexionDB"));
-            });
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TiendaServicios.Api.CarritoCompra", Version = "v1" });
+                options.UseMySQL(Configuration.GetConnectionString("ConexionDatabase"));
             });
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
 
-            services.AddHttpClient("Libros", config => {
+            services.AddHttpClient("Libros", config =>
+            {
                 config.BaseAddress = new Uri(Configuration["Services:Libros"]);
-             });
+            });
+
+            services.AddControllers();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -57,11 +53,7 @@ namespace TiendaServicios.Api.CarritoCompra
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TiendaServicios.Api.CarritoCompra v1"));
             }
-
-            app.UseHttpsRedirection();
 
             app.UseRouting();
 

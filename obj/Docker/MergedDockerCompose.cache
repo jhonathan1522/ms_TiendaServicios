@@ -7,7 +7,6 @@ services:
       dockerfile: TiendaServicios.Api.Autor/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
     image: tiendaserviciosapiautor
     networks:
       default: null
@@ -16,16 +15,6 @@ services:
       target: 80
       published: "6104"
       protocol: tcp
-    - mode: ingress
-      target: 443
-      protocol: tcp
-    volumes:
-    - type: bind
-      source: C:\Users\jnata\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
   tiendaservicios.api.carritocompra:
     build:
       context: C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso
@@ -33,7 +22,6 @@ services:
       dockerfile: TiendaServicios.Api.CarritoCompra/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
       Services__Libros: http://tiendaservicios.api.libro
     image: tiendaserviciosapicarritocompra
     networks:
@@ -43,27 +31,13 @@ services:
       target: 80
       published: "6106"
       protocol: tcp
-    - mode: ingress
-      target: 443
-      protocol: tcp
-    volumes:
-    - type: bind
-      source: C:\Users\jnata\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
   tiendaservicios.api.gateway:
     build:
       context: C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso
         de Microservicios .Net\TiendaServicios
       dockerfile: TiendaServicios.Api.Gateway/Dockerfile
-    depends_on:
-      tiendaservicios.api.libro:
-        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
     image: tiendaserviciosapigateway
     networks:
       default: null
@@ -72,16 +46,6 @@ services:
       target: 80
       published: "6107"
       protocol: tcp
-    - mode: ingress
-      target: 443
-      protocol: tcp
-    volumes:
-    - type: bind
-      source: C:\Users\jnata\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
   tiendaservicios.api.libro:
     build:
       context: C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso
@@ -89,7 +53,6 @@ services:
       dockerfile: TiendaServicios.Api.Libro/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
     image: tiendaserviciosapilibro
     networks:
       default: null
@@ -98,16 +61,6 @@ services:
       target: 80
       published: "6105"
       protocol: tcp
-    - mode: ingress
-      target: 443
-      protocol: tcp
-    volumes:
-    - type: bind
-      source: C:\Users\jnata\AppData\Roaming/ASP.NET/Https
-      target: /root/.aspnet/https
-      read_only: true
-      bind:
-        create_host_path: true
 networks:
   default:
     name: microservicesnet

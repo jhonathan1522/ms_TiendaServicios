@@ -1,53 +1,196 @@
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\appsettings.Development.json
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\appsettings.json
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Properties\launchSettings.json
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.exe
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\FluentValidation.AspNetCore.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\MediatR.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\AutoMapper.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\FluentValidation.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.Options.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Npgsql.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.pdb
+C:\MicroserviceTienda\TiendaServicios\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\MicroserviceTienda\TiendaServicios\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\MicroserviceTienda\TiendaServicios\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.exe
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.pdb
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.exe
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\MySql.Data.EntityFrameworkCore.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\MySql.Data.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Google.Protobuf.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Zstandard.Net.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\BouncyCastle.Crypto.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Ubiety.Dns.Core.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Renci.SshNet.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\K4os.Compression.LZ4.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\K4os.Hash.xxHash.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\SshNet.Security.Cryptography.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\System.Xml.XPath.XmlDocument.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.pdb
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\ocelot.json
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.exe
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Ocelot.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Newtonsoft.Json.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\MicroserviceTienda\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\appsettings.Development.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\appsettings.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.deps.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.runtimeconfig.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.runtimeconfig.dev.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.deps.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.runtimeconfig.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.runtimeconfig.dev.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.deps.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.runtimeconfig.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.runtimeconfig.dev.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.deps.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.dev.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\ocelot.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\FluentValidation.AspNetCore.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\MediatR.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\AutoMapper.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\FluentValidation.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\MySql.Data.EntityFrameworkCore.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Ocelot.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Npgsql.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\MySql.Data.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Google.Protobuf.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Zstandard.Net.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Renci.SshNet.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\SshNet.Security.Cryptography.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\System.Xml.XPath.XmlDocument.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Curso Microservicios .net core\TiendaServicios\obj\Debug\docker-compose.dcproj.CopyComplete
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.deps.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.runtimeconfig.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.runtimeconfig.dev.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\appsettings.Development.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\appsettings.json
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\libman.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.exe
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.AspNetCore.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MediatR.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MediatR.Contracts.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\AutoMapper.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.OpenApi.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Options.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Primitives.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Npgsql.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.pdb
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.CopyComplete
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.deps.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.runtimeconfig.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.runtimeconfig.dev.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.exe
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Data.SqlClient.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.pdb
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.deps.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.runtimeconfig.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.runtimeconfig.dev.json
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.deps.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.dev.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\ocelot.json
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.exe
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.AspNetCore.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MediatR.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\AutoMapper.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MySql.Data.EntityFrameworkCore.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MySql.Data.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Ocelot.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Npgsql.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\MySql.Data.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Google.Protobuf.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Zstandard.Net.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\K4os.Compression.LZ4.Streams.dll
@@ -55,23 +198,17 @@ C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Micros
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Renci.SshNet.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\SshNet.Security.Cryptography.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\System.Xml.XPath.XmlDocument.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Autor.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Libro.pdb
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.CarritoCompra.pdb
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.deps.json
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.json
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.runtimeconfig.dev.json
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\ocelot.json
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.exe
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Ocelot.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Newtonsoft.Json.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.Extensions.DiagnosticAdapter.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.MiddlewareAnalysis.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\Newtonsoft.Json.Bson.dll
 C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\bin\Debug\TiendaServicios.Api.Gateway.pdb
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\jnata\Documents\PROYECTOS\Desarrollo de software\Cursos\Curso de Microservicios .Net\TiendaServicios\obj\Debug\docker-compose.dcproj.CopyComplete

@@ -16,5 +16,6 @@ namespace TiendaServicios.Api.CarritoCompra.Modelo
         public int CarritoSesionId { get; set; }
 
         public CarritoSesion CarritoSesion { get; set; }
+
     }
 }

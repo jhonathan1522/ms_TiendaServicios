@@ -11,6 +11,6 @@ namespace TiendaServicios.Api.CarritoCompra.Modelo
 
         public DateTime? FechaCreacion { get; set; }
 
-        public ICollection<CarritoSesionDetalle> listaDetalle { get; set; }
+        public ICollection<CarritoSesionDetalle> ListaDetalle { get; set; }
     }
 }

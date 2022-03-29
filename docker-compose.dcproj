@@ -3,9 +3,9 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>04d4fb0b-0a39-4109-b2f3-734a84749d90</ProjectGuid>
+    <ProjectGuid>d3482eda-8bef-40e9-aea3-0f0ee15ca5db</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/Autor</DockerServiceUrl>
     <DockerServiceName>tiendaservicios.api.autor</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>

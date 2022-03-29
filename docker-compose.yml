@@ -5,7 +5,8 @@ services:
     image: ${DOCKER_REGISTRY-}tiendaserviciosapiautor
     build:
       context: .
-      dockerfile: TiendaServicios.Api.Autor/Dockerfile
+      dockerfile: TiendaServicios.Api.Autor/Dockerfile  
+
   tiendaservicios.api.libro:
     image: ${DOCKER_REGISTRY-}tiendaserviciosapilibro
     build:
@@ -26,7 +27,8 @@ services:
 
 networks:
   default:
-   external:
-    name: microservicesnet
+    external:
+      name: microservicesnet
+   
 
 

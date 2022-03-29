@@ -15,24 +15,21 @@ namespace TiendaServicios.Api.Libro.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityColumns()
+                .HasAnnotation("ProductVersion", "3.1.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("TiendaServicios.Api.Libro.Modelo.LibreriaMaterial", b =>
                 {
-                    b.Property<Guid>("LibreriaMaterialId")
+                    b.Property<Guid?>("LibreriaMaterialId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("AutorLibro")
+                    b.Property<Guid?>("AutorLibro")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime?>("FechaPublicacion")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("LibreriaMaterialGuid")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Titulo")
                         .HasColumnType("nvarchar(max)");

@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using MediatR;
+﻿using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,21 +11,20 @@ namespace TiendaServicios.Api.CarritoCompra.Aplicacion
 {
     public class Nuevo
     {
-        public class Ejecuta : IRequest {
+        public class Ejecuta : IRequest { 
+            public DateTime FechaCreacionSesion { get; set; }
 
-            public DateTime? FechaCreacionSesion { get; set; }
             public List<string> ProductoLista { get; set; }
+
         }
 
         public class Manejador : IRequestHandler<Ejecuta>
         {
-
-            public readonly CarritoContexto _contexto;
-
+            private readonly CarritoContexto _contexto;
             public Manejador(CarritoContexto contexto) {
                 _contexto = contexto;
             }
-
+            
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
                 var carritoSesion = new CarritoSesion
@@ -35,30 +33,35 @@ namespace TiendaServicios.Api.CarritoCompra.Aplicacion
                 };
 
                 _contexto.CarritoSesion.Add(carritoSesion);
-                var valor = await _contexto.SaveChangesAsync();
-                if (valor == 0)
-                {
-                    throw new Exception("No se pudo guardar el carrito de compras");
+                var value = await _contexto.SaveChangesAsync();
+
+                if (value == 0) {
+                    throw new Exception("Errores en la insercion del carrito de compras");
                 }
-                // obtenemos el id de la sesión
-                int Id = carritoSesion.CarritoSesionId;
+
+                int id = carritoSesion.CarritoSesionId;
+
                 foreach (var obj in request.ProductoLista) {
                     var detalleSesion = new CarritoSesionDetalle
                     {
                         FechaCreacion = DateTime.Now,
-                        CarritoSesionId = Id,
+                        CarritoSesionId = id,
                         ProductoSeleccionado = obj
                     };
+
                     _contexto.CarritoSesionDetalle.Add(detalleSesion);
                 }
-                 valor = await _contexto.SaveChangesAsync();
 
-                if (valor > 0) { 
+                value = await _contexto.SaveChangesAsync();
+
+                if (value > 0) {
                     return Unit.Value;
                 }
+
                 throw new Exception("No se pudo insertar el detalle del carrito de compras");
 
             }
         }
+
     }
 }

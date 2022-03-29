@@ -7,19 +7,13 @@ using TiendaServicios.Api.CarritoCompra.Modelo;
 
 namespace TiendaServicios.Api.CarritoCompra.Persistencia
 {
-    public class CarritoContexto: DbContext
+    public class CarritoContexto : DbContext
     {
+        public CarritoContexto(DbContextOptions<CarritoContexto> options) : base(options) { }
+
         public DbSet<CarritoSesion> CarritoSesion { get; set; }
 
         public DbSet<CarritoSesionDetalle> CarritoSesionDetalle { get; set; }
 
-        public CarritoContexto(DbContextOptions<CarritoContexto> options)
-        : base(options)
-        {
-        }
-
-        public CarritoContexto()
-        {
-        }
     }
 }
